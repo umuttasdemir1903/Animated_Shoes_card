@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons cdn link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Animated Product Card</title>
+</head>
+
+<body>
+
+    <div class="product-card">
+        <div class="logo-cart">
+            <img src="images/logo.jpg" alt="">
+            <i class='bx bx-shopping-bag'></i>
+        </div>
+        <div class="main-images">
+            <img id="blue" class="blue active" src="/images/blue.png" alt="blue">
+            <img id="yellow" class="yellow  " src="/images/yellow.png" alt="yellow">
+            <img id="pink" class="pink " src="/images/pink.png" alt="pink">
+        </div>
+        <div class="shoe-details">
+            <span class="shoe_name">ADIDAS GAZE ZX</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, veritatis.</p>
+            <div class="starts">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+        </div>
+        <div class="color-price">
+            <div class="color-option">
+                <span class="color">Colour :</span>
+                <div class="circles">
+                    <span class="circle blue active" id="blue"></span>
+                    <span class="circle yellow " id="yellow"></span>
+                    <span class="circle pink " id="pink"></span>
+                </div>
+            </div>
+            <div class="price">
+                <span class="price_num">$70.00 dollar</span>
+                <span class="price_letter"></span>
+            </div>
+        </div>
+        <div class="button">
+            <div class="button-layer"></div>
+            <button id="btn">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
